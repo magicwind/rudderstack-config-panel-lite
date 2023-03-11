@@ -195,7 +195,7 @@ class Home extends Component<IHomeProps> {
         <Layout style={{ minHeight: '100vh' }}>
           <Sidebar />
           <Layout>
-            <Banner/>
+            {/* <Banner/> */}
             {this.getAlertContainer(messagesStore)}
             {this.renderLayout()}
           </Layout>

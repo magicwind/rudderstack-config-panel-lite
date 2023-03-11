@@ -7,7 +7,7 @@ import is from 'typescript-styled-is';
 
 export const Sider = styled(Layout.Sider)`
   &&& {
-    background-color: ${({ theme }) => theme.color.primary};
+    background-color: ${({ theme }) => theme.color.white};
     min-width: 280px !important;
   }
 `;
@@ -18,7 +18,7 @@ export const AvatarContainer = styled.div`
 `;
 
 export const SidebarAvatar = styled(Avatar)`
-  background-color: ${({ theme }) => theme.color.primary400} !important;
+  background-color: ${({ theme }) => theme.color.primary300} !important;
   height: 48px !important;
   width: 48px !important;
   svg {
@@ -30,7 +30,7 @@ export const SidebarAvatar = styled(Avatar)`
 
 export const UserName = styled.div`
   font-size: ${({ theme }) => theme.fontSize.normal};
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.color.grey900};
   padding: 12px 0;
   line-height: 19px;
 `;
@@ -51,14 +51,14 @@ export const SidebarLink = styled(NavLink) <IProps>`
   cursor: pointer;
   display: flex;
   align-items: center;
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.color.grey900};
   font-size: ${({ theme }) => theme.fontSize.md};
   font-weight: ${({ theme }) => theme.fontWeight.md};
   svg {
     margin-right: 30px;
   }
   &.active {
-    background-color: ${({ theme }) => theme.color.primary400};
+    background-color: ${({ theme }) => theme.color.primary300};
     border-radius: 20px;
     color: ${({ theme }) => theme.color.yellow300};
     svg,
@@ -68,7 +68,7 @@ export const SidebarLink = styled(NavLink) <IProps>`
     }
   }
   &:hover {
-    background-color: ${({ theme }) => theme.color.primary400};
+    background-color: ${({ theme }) => theme.color.primary300};
     border-radius: 20px;
     color: ${({ theme }) => theme.color.white};
     &.active {

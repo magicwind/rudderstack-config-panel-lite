@@ -31,7 +31,7 @@ class Sidebar extends React.Component<ISidebarProps> {
       <Sider trigger={null} collapsible={true} collapsed={false}>
         <AvatarContainer>
           <SidebarAvatar icon="user" />
-          <UserName>RUDDERSTACK</UserName>
+          <UserName>Control Panel Lite</UserName>
         </AvatarContainer>
         <SidebarLinksContainer>
           <SidebarLink to="/home" exact>
@@ -46,14 +46,14 @@ class Sidebar extends React.Component<ISidebarProps> {
             <Svg name="destination" />
             <span>Destinations</span>
           </SidebarLink>
-          <Tooltip placement="right" title="Please try Ruderstack Control Plane for this feature">
+          {/* <Tooltip placement="right" title="Please try Ruderstack Control Plane for this feature">
             <div onClick = {()=> {if(messagesStore) { 
-              messagesStore.setIsAnimating(true)}}} >
-          <SidebarLink dim to="/transformation">            
-            <Svg name="transformation" />
-            <span>Transformations</span>
-          </SidebarLink>
-          </div>
+                messagesStore.setIsAnimating(true)}}} >
+            <SidebarLink dim to="/transformation">            
+              <Svg name="transformation" />
+              <span>Transformations</span>
+            </SidebarLink>
+            </div>
           </Tooltip>
           <Tooltip placement="bottom" title="Please try Ruderstack Control Plane for this feature">
           <div onClick = {()=> {if(messagesStore) { 
@@ -63,7 +63,7 @@ class Sidebar extends React.Component<ISidebarProps> {
             <span> Syncs </span>
           </SidebarLink>
           </div>
-          </Tooltip>         
+          </Tooltip>          */}
         </SidebarLinksContainer>
       </Sider>
     );

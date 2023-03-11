@@ -41,12 +41,12 @@ class Banner extends Component<{messagesStore?:IMessageStore}> {
     const { messagesStore } = this.props;
     return (
     <Container move={messagesStore!.isAnimating} onAnimationEnd={() => { messagesStore!.setIsAnimating(false) }}>
-              <Label color="#FF0000">
+              {/* <Label color="#FF0000">
                 We highly recommend signing up for RudderStack Cloud to get access to features such as Transformations, Live Events, Warehouse Syncs, and more.
             </Label>
               <Flex style={{ paddingTop: '20px' }}>
                 <Button type="primary" shape="round" href="https://app.rudderstack.com"> Try Now </Button>
-              </Flex>
+              </Flex> */}
             </Container>
 
     );

@@ -10,6 +10,8 @@ const theme: ITheme = {
     white: '#FFFFFF',
 
     // Grey colors
+    grey900: '#000716',
+    grey600: '#414d5c',
     grey500: '#333333',
     grey400: '#4F4F4F',
     grey300: '#828282',
@@ -32,13 +34,14 @@ const theme: ITheme = {
     red200: '#FF9898',
     red100: '#FDCDCD',
 
-    // Rudder primary Colors
+    // Rudder primary Colors (Blue)
+    primary600: '#0972d3',
     primary400: '#4C0A75',
-    primary300: '#6D0FA7',
+    primary300: '#b5d6f4',
     primary: '#6D0FA7',
-    primary200: '#931BDD',
+    primary200: '#d3e7f9',
     primary150: '#880ED3',
-    primary100: '#B649FA',
+    primary100: '#f2f8fd',
     primary100_transparent: 'rgba(182, 71, 250, 0.5)',
     primary50: '#D185FF',
     primary10: '#EED4FE',
